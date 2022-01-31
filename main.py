@@ -32,7 +32,7 @@ direction = input(" You reach a fork in the road. Do you go left or right?")
 if direction == "left":
   swim = input("You come to a lake. There is an island at it\'s center. Type 'wait' to wait for a boat or 'swim' to swim across.")
   if swim == "wait":
-    door = input("The boat arrives and takes you to the island. There you find a house with three doors. One is red, one yellow, and one blue. Which door do you enter?")
+    door = input("The boat arrives and takes you to the island.\nThere you find a house with three doors.\nOne is red, one yellow, and one blue.\nWhich door do you enter?")
     if door == "red":
       print("The room is full of fire and you are incinerated instantly")
     elif door == "yellow":
@@ -40,8 +40,8 @@ if direction == "left":
     elif door == "blue":
       print("The room is filled with beasts who wrend the flesh from your bones, killing you slowly and methodically.")
     else:
-      print("You choose no doors, and the house and the boat disappear. You wander the island alone for many days until you slowly die of thirst.")
+      print("You choose no doors, and the house and the boat disappear.\nYou wander the island alone for many days until you slowly die of thirst.")
   else:
-    print("You are attacked by a school of ravenous trout. They eat out your eyes and quickly bleed to death.")
+    print("You are attacked by a school of ravenous trout.\nThey eat out your eyes and quickly bleed to death.")
 else:
-  print("You have fallen into a hidden punji pit and died impaled on the sharpened spikes.")
+  print("You have fallen into a hidden punji pit and die impaled on the sharpened spikes.")
