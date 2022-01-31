@@ -27,12 +27,12 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-direction = input(" You reach a fork in the road. Do you go left or right?")
+direction = input(" You reach a fork in the road. Do you go left or right? ")
 
 if direction == "left":
-  swim = input("You come to a lake. There is an island at it\'s center. Type 'wait' to wait for a boat or 'swim' to swim across.")
+  swim = input("You come to a lake.\nThere is an island at it\'s center.\nType 'wait' to wait for a boat or 'swim' to swim across. ")
   if swim == "wait":
-    door = input("The boat arrives and takes you to the island.\nThere you find a house with three doors.\nOne is red, one yellow, and one blue.\nWhich door do you enter?")
+    door = input("The boat arrives and takes you to the island.\nThere you find a house with three doors.\nOne is red, one yellow, and one blue.\nWhich door do you enter? ")
     if door == "red":
       print("The room is full of fire and you are incinerated instantly")
     elif door == "yellow":
